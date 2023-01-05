@@ -16,6 +16,7 @@ const transaction = {
   amount:parseInt(amount)//using + before a string also parses a string to an int ie +amount
 }
 addTransaction(transaction)
+
     }
   return (
     <section className='section'>
