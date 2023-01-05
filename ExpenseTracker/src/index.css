@@ -338,6 +338,14 @@ ul {
   padding: 1rem 1.5rem;
   margin: 1rem 0;
 }
+.minus{
+  border-right: 2px solid red;
+
+}
+.plus{
+  border-right: 2px solid green;
+
+}
 
 .transactionList ul li{
 display: flex;
