@@ -339,25 +339,39 @@ ul {
   margin: 1rem 0;
 }
 .minus{
-  border-right: 2px solid red;
+  border-right: 4px solid red;
 
 }
 .plus{
-  border-right: 2px solid green;
+  border-right: 4px solid green;
 
 }
 
-.transactionList ul li{
+.transactionList ul li span{
 display: flex;
+justify-content: space-between;
+justify-content: center;
 gap: 20px;
 margin-top: 0.5cm;
+margin-right:0.5cm
 
 
 }
 
-.transactionList ul li button{
- color: white;
-background-color: red;  
-width: 50px;
-height: 30px;
-  }
+.delete-btn{
+  cursor: pointer;
+  color: var(--white);
+  background: black;
+  border: transparent;
+  border-radius: var(--borderRadius);
+  letter-spacing: var(--letterSpacing);
+  padding: 0.175rem 0.55rem;
+  box-shadow: var(--shadow-1);
+  transition: var(--transition);
+  text-transform: capitalize;
+  display: inline-block;
+}
+.delete-btn:hover {
+  background: var(--primary-700);
+  box-shadow: var(--shadow-3);
+}
